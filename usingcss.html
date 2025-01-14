@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS in html</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+
+        h2{
+            color: blue;
+            text-align: center;
+            font-style: italic;
+
+        }
+        .page-heading{
+            color: blueviolet;
+        }
+        #t1{
+
+        color: rebeccapurple;
+        font-style:italic;
+        text-shadow: black;
+        }
+        button{
+            color: rgb(32, 20, 42);
+            background-color: aqua;
+            padding: 10px;
+        }
+        .btn{
+            background-color: blueviolet;
+        }
+        #b1{background-color: brown;}
+        
+    </style>
+</head>
+<body>
+    <h1 style="color: brown;text-align: center;text-decoration: line-through;text-decoration-color: rgb(124, 214, 97);">
+        inline css is used to  style individual tagas only.
+    </h1>
+    <h2>this is internal css using tag selector </h2>
+    <h2 class="page-heading">
+        internal css
+    </h2>
+    <h3 class="page-heading">
+        class selectors are used by there class name using (.) symbol.
+    </h3>
+    <p id="t1">this is the example of id selector in internal CSS</p>
+    <button style="background-color: cyan;" class="btn" id="b1">Submit</button>
+    <button class="btn2 btn3">external css</button>
+</body>
+</html>

@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <title>login using tailwindcss</title>
+
+</head>
+<body class="flex justify-center bg-no-repeat bg-cover items-center h-screen bg-[url('https://images.unsplash.com/photo-1541697349791-30e88807ccc8?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=MnwxMjA3fDB8MXxzZWFyY2h8NHx8Ym9vayUyMG5hdHVyZXx8MHx8fHwxNjMxMjY3MzUy&ixlib=rb-1.2.1&q=80&w=1080')]">
+  <div class="border-2 border-gray-500 w-1/5 h-[450px] rounded-xl shadow-xl p-6 bg-white"   >
+    <h2 class="form-tittle text-center text-[24px] font-bold my-4">Login to continue</h2>
+    <form>
+        <label for="email">Email</label><br>
+        <input placeholder="Enter Email" type="email" class="border block w-full rounded-md py-1.5 px-3 mt-0.5" id="email">
+        <br>
+        <label for="password">Password</label><br>
+        <input placeholder="Enter Password" type="password" class="border block w-full rounded-md py-1.5 px-3 mt-0.5 " id="password">
+        <br>
+        <a class="text-[crimson] font-bold block" href="#">Forgot Password?</a>
+        <button type="submit" class="btn block w-full bg-[crimson] text-white rounded-md p-1.5 my-6">Submit</button><br>
+        <a class="text-[crimson] font-bold block text-center" href="#">Create a new Account</a>
+    </form>
+</div>
+</body>
+</html>

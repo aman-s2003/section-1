@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact form</title>
+    <style>
+        body {
+            background-image: linear-gradient(0deg, rgba(255, 0, 0, 0.828), rgba(10, 10, 123, 0.936));
+        }
+
+        .parent {
+            height: 1000px;
+            display: flex;
+
+            flex-direction: row-reverse;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .child1 {
+            height: 400px;
+            padding-top: 40px;
+            display: flex;
+            background-color: rgb(167, 57, 226);
+            flex-direction: row;
+            justify-content: center;
+            align-items: flex-start;
+            width: 20%;
+            border: 2px solid rgba(0, 0, 0, 0);
+            border-radius: 5px;
+        }
+
+        .child2 {
+            display: flex;
+            font-weight: bold;
+            height: 400px;
+            padding-top: 40px;
+            display: flex;
+            border: 2px solid rgba(0, 0, 0, 0);
+            border-radius: 5px;
+            justify-content: center;
+            flex-direction: row;
+            background-color: rgb(242, 167, 232);
+            width: 20%;
+        }
+
+        label {
+            font-size: large;
+            margin-left: 50px;
+
+        }
+
+        #text-input {
+            margin-left: 50px;
+            font-size: medium;
+            border-radius: 5px;
+            padding: 5px;
+            height: 40px;
+            width: 270px;
+            margin-bottom: 15px;
+            border: 1px solid black;
+            box-sizing: border-box;
+            margin-top: 5px;
+        }
+
+        span {
+            font-size: 27px;
+        }
+
+        p {
+            margin-right: 100px;
+
+        }
+
+        #text {}
+
+        textarea {
+            width: 265px;
+            height: 80px;
+            font-size: large;
+            margin-left: 50px;
+            width: 265px;
+            border-radius: 5px;
+            border: 1px solid black;
+
+        }
+
+        .pp {
+            margin-top: 80px;
+            width: 100rem;
+            margin-left: 20px;
+            border: 1px solid black;
+        }
+        .btn{
+            margin-top: 10px;
+
+            margin-left: 50px;
+            padding: 5px;
+            width: 270px;
+            background-color: rgb(26, 12, 64);
+            color: white;
+            border: 1px solid black;
+            border-radius: 5px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="parent">
+        <div class="child1">
+            <form action="">
+                <label class="label" for="text-input">Name</label><br>
+                <input placeholder="Enter Name" class="text" type="text" id="text-input" name="name" required><br>
+                <label class="label" for="email">Email</label><br>
+                <input placeholder="Enter Email add" type="email" id="text-input" name="email" required><br>
+                <label class="label" for="text-input">Write Description</label>
+                <textarea placeholder="Write Description here" name="" id=""></textarea>
+                <button class="btn">Submit</button>
+            </form>
+        </div>
+        <div class="child2">
+            <span>Please contact</span>
+            <br>
+            <div class="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam odio autem eos error esse, quaerat, illo, sint accusantium assumenda 
+                sapiente quod expedita velit labore temporibus? Incidunt soluta aperiam beatae ipsa.</p>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
